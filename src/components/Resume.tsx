@@ -7,9 +7,9 @@ export default function Resume() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   return (
-    <div className="w-full   py-20" id="resume ">
+    <div className="w-full   py-20" id="resume">
       <div
         className="text-[40px] xl:text-[60px] font-bold text-center
        w-full   text-[#FE2D55]"
