@@ -1,6 +1,19 @@
 import { TypeAnimation } from "react-type-animation";
-import Particles from "react-tsparticles";
+// import { useEffect, useState } from "react";
+// import Particles, { initParticlesEngine } from "@tsparticles/react";
+// import { loadFull } from "tsparticles";
+// import { particlesOption } from "./ParticlesOption";
 export default function Home() {
+  // const [init, setInit] = useState(false);
+  // useEffect(() => {
+  //   initParticlesEngine(async (engine) => {
+
+  //     await loadFull(engine as any);
+
+  //   }).then(() => {
+  //     setInit(true);
+  //   });
+  // }, []);
   return (
     <div
       id="home"
@@ -35,7 +48,7 @@ export default function Home() {
           </a>
         </button>
       </div>
-      <Particles id="tsparticles" />
+      {/* {init && <Particles id="tsparticles" options={particlesOption} />} */}
     </div>
   );
 }

@@ -7,7 +7,9 @@ export default function Resume() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState<"education" | "professional" | "experience">(
+    "education"
+  );
   return (
     <div className="w-full   py-20" id="resume">
       <div
@@ -20,7 +22,7 @@ export default function Resume() {
         <div
           className="bg-#ffffff dark:bg-[#1b1b1d] cursor-pointer shadow-md w-full flex justify-center rounded-lg hover:text-[#FE2D55]  transition-all duration-[0.5s]  p-4   "
           onClick={() => {
-            setShow(!show);
+            setShow("education");
           }}
         >
           Education
@@ -29,7 +31,7 @@ export default function Resume() {
         <div
           className="bg-#ffffff dark:bg-[#1b1b1d] shadow-md cursor-pointer w-full flex justify-center rounded-lg hover:text-[#FE2D55] text-[20px] transition-all duration-[0.5s]  p-4   "
           onClick={() => {
-            setShow(!show);
+            setShow("professional");
           }}
         >
           Professional Skills
@@ -37,7 +39,7 @@ export default function Resume() {
         <div
           className="bg-#ffffff dark:bg-[#1b1b1d] shadow-md w-full cursor-pointer flex justify-center rounded-lg hover:text-[#FE2D55] transition-all duration-[0.5s]  p-4   "
           onClick={() => {
-            setShow(!show);
+            setShow("experience");
           }}
         >
           Experience
@@ -45,14 +47,15 @@ export default function Resume() {
       </div>
       <div
         style={{
-          display: show === true ? "block" : "none",
+          display:
+            show === "education" || show === "experience" ? "block" : "none",
         }}
       >
         <Education />
       </div>
       <div
         style={{
-          display: show === false ? "block" : "none",
+          display: show === "professional" ? "block" : "none",
         }}
       >
         <Skills />
