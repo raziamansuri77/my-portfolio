@@ -20,7 +20,7 @@ export default function Navbar() {
         xl:w-[180px]  xl:h-[180px]   rounded-full    "
       >
         <img
-          src="public/2189.jpg"
+          src="public/dp.jpg"
           alt=""
           className=" h-[60px] w-[60px] rounded-full xl:w-[180px]  xl:h-[180px] border-gray-600 border-4 "
         />
