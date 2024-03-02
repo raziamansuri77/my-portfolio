@@ -1,4 +1,3 @@
-import React from "react";
 import ResumeCard from "./ResumeCard";
 
 export default function Education() {
