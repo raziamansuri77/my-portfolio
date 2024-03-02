@@ -18,7 +18,7 @@ export default function MyWork() {
             link="https://todoapprazia.netlify.app"
             text1="TODO APP"
             text2="ReactTS,Tailwind CSS"
-            imageSrc="public/todopic1.png"
+            imageSrc="/todopic1.png"
           />
         </div>
         <div data-aos="zoom-in-up">
@@ -26,7 +26,7 @@ export default function MyWork() {
             link="https://weather-app-razia.netlify.app"
             text1="Weather App"
             text2="ReactTS,Tailwind CSS"
-            imageSrc="public/weatherApp.png"
+            imageSrc="/weatherApp.png"
           />
         </div>
         <div data-aos="zoom-in-up">
@@ -34,7 +34,7 @@ export default function MyWork() {
             link="https://raziamansuri77.github.io/calculator/"
             text1="Calculator"
             text2="HTML,CSS,JAVASCRIPT"
-            imageSrc="public/calculator1.png"
+            imageSrc="/calculator1.png"
           />
         </div>
         <div data-aos="zoom-in-up">
@@ -42,7 +42,7 @@ export default function MyWork() {
             link="https://quiz-app-razia.netlify.app"
             text1="QUIZ APP"
             text2="HTML,CSS,JAVASCRIPT"
-            imageSrc="public/quiz.png"
+            imageSrc="/quiz.png"
           />
         </div>
       </div>
