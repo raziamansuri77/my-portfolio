@@ -7,6 +7,7 @@ import { LuFacebook } from "react-icons/lu";
 import { BsInstagram } from "react-icons/bs";
 import { LuLinkedin } from "react-icons/lu";
 import { BiMenu } from "react-icons/bi";
+import { FaGithub } from "react-icons/fa";
 export default function Navbar() {
   return (
     <div
@@ -76,19 +77,22 @@ export default function Navbar() {
         <div>FIND ME</div>
 
         <div className="flex justify-between w-full ">
-          <a href="https://www.facebook.com/razia.mansuri.562/">
+          {/* <a href="https://www.facebook.com/razia.mansuri.562/"> */}
+          <a href="https://github.com/">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150  ">
-              <LuFacebook />
+              {/* <LuFacebook /> */}
+              <FaGithub />
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/raziamansuri/">
+            <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]  p-4  hover:-translate-y-1 ease-in-out delay-150">
+              <LuLinkedin />
             </div>
           </a>
           <a href="https://www.instagram.com/razia_mansuri77/">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
               <BsInstagram />
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/raziamansuri/">
-            <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]  p-4  hover:-translate-y-1 ease-in-out delay-150">
-              <LuLinkedin />
             </div>
           </a>
         </div>

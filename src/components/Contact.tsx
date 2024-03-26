@@ -1,6 +1,7 @@
 import { LuFacebook } from "react-icons/lu";
 import { BsInstagram } from "react-icons/bs";
 import { LuLinkedin } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -33,19 +34,25 @@ export default function Contact() {
             <div className="w-full mt-8 xl:flex flex-col gap-4 text-center ">
               <div className="text-[20px]">FIND ME</div>
               <div className="flex gap-10 w-full text-rigth  justify-center mt-[20px]">
-                <a href="https://www.facebook.com/razia.mansuri.562/">
+                {/* <a href="https://www.facebook.com/razia.mansuri.562/">
                   <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150  ">
                     <LuFacebook />
                   </div>
-                </a>
-                <a href="https://www.instagram.com/razia_mansuri77/">
-                  <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
-                    <BsInstagram />
+                </a> */}
+                <a href="https://github.com/">
+                  <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150  ">
+                    {/* <LuFacebook /> */}
+                    <FaGithub />
                   </div>
                 </a>
                 <a href="https://www.linkedin.com/in/raziamansuri/">
                   <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]  p-4  hover:-translate-y-1 ease-in-out delay-150">
                     <LuLinkedin />
+                  </div>
+                </a>
+                <a href="https://www.instagram.com/razia_mansuri77/">
+                  <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
+                    <BsInstagram />
                   </div>
                 </a>
               </div>
