@@ -1,7 +1,8 @@
-import { LuFacebook } from "react-icons/lu";
+// import { LuFacebook } from "react-icons/lu";
 import { BsInstagram } from "react-icons/bs";
 import { LuLinkedin } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
 
 export default function Contact() {
   return (
@@ -50,9 +51,10 @@ export default function Contact() {
                     <LuLinkedin />
                   </div>
                 </a>
-                <a href="https://www.instagram.com/razia_mansuri77/">
-                  <div className="shadow-md rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
-                    <BsInstagram />
+                <a href="https://app.netlify.com/teams/raziamansuri77/sites">
+                  <div className="shadow-md rounded-md hover:text-[#FE2D55]  transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
+                    {/* <BsInstagram /> */}
+                    <SiNetlify />
                   </div>
                 </a>
               </div>

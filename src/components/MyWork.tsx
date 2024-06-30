@@ -39,10 +39,10 @@ export default function MyWork() {
         </div>
         <div data-aos="zoom-in-up">
           <MyWorkCard
-            link="https://quiz-app-razia.netlify.app"
+            link="https://my-quiz-app-razia.netlify.app"
             text1="QUIZ APP"
             text2="HTML,CSS,JAVASCRIPT"
-            imageSrc="/quiz.png"
+            imageSrc="/quiz-app.png"
           />
         </div>
       </div>

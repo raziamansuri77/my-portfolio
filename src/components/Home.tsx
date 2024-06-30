@@ -1,19 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
-// import { useEffect, useState } from "react";
-// import Particles, { initParticlesEngine } from "@tsparticles/react";
-// import { loadFull } from "tsparticles";
-// import { particlesOption } from "./ParticlesOption";
+
 export default function Home() {
-  // const [init, setInit] = useState(false);
-  // useEffect(() => {
-  //   initParticlesEngine(async (engine) => {
-
-  //     await loadFull(engine as any);
-
-  //   }).then(() => {
-  //     setInit(true);
-  //   });
-  // }, []);
   return (
     <div
       id="home"
@@ -43,12 +30,11 @@ export default function Home() {
           <a href="#contact"> CONTACT ME</a>
         </button>
         <button className="bg-#ffffff dark:bg-[#1b1b1d]  text-[#FE2D55] w-[200px] shadow-md  p-4    hover:-translate-y-1 transition-all ease-in-out delay-150  ">
-          <a href="public/Resume(RM).pdf" download>
+          <a href="public/razia_fullstack.pdf" download>
             DOWNLOAD RESUME
           </a>
         </button>
       </div>
-      {/* {init && <Particles id="tsparticles" options={particlesOption} />} */}
     </div>
   );
 }

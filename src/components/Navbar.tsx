@@ -3,11 +3,12 @@ import { LuLayers } from "react-icons/lu";
 import { AiOutlineUser } from "react-icons/ai";
 import { LuUsers } from "react-icons/lu";
 import { FiMessageCircle } from "react-icons/fi";
-import { LuFacebook } from "react-icons/lu";
 import { BsInstagram } from "react-icons/bs";
 import { LuLinkedin } from "react-icons/lu";
 import { BiMenu } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
+import { SiNetlify } from "react-icons/si";
+
 export default function Navbar() {
   return (
     <div
@@ -21,9 +22,9 @@ export default function Navbar() {
         xl:w-[180px]  xl:h-[180px]   rounded-full    "
       >
         <img
-          src="/dp1.jpeg"
+          src="/dp-1.jpg"
           alt=""
-          className=" h-[60px] w-[60px] rounded-full xl:w-[180px]  xl:h-[180px] border-gray-600 border-4 "
+          className=" h-[80px] w-[80px] rounded-full xl:w-[180px]  xl:h-[180px] border-gray-600 border-4 "
         />
       </div>
       <div className="text-[40px] text-[#FE2D55] xl:hidden ">
@@ -80,7 +81,6 @@ export default function Navbar() {
           {/* <a href="https://www.facebook.com/razia.mansuri.562/"> */}
           <a href="https://github.com/">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150  ">
-              {/* <LuFacebook /> */}
               <FaGithub />
             </div>
           </a>
@@ -90,9 +90,10 @@ export default function Navbar() {
               <LuLinkedin />
             </div>
           </a>
-          <a href="https://www.instagram.com/razia_mansuri77/">
+          <a href="https://app.netlify.com/teams/raziamansuri77/sites">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
-              <BsInstagram />
+              {/* <BsInstagram /> */}
+              <SiNetlify />
             </div>
           </a>
         </div>

@@ -63,7 +63,7 @@ export default function Education() {
                 <ResumeCard
                   text1="Computer Instructor "
                   text2="
-                I have been teaching for 2 years in Galaxy Private ITI Heerpur Paonta Sahib Himachal Pradesh"
+                I have been teaching for 2 and half years in Galaxy Private ITI Heerpur Paonta Sahib Himachal Pradesh"
                 />
               </div>
             </div>
