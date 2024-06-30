@@ -3,7 +3,6 @@ import { LuLayers } from "react-icons/lu";
 import { AiOutlineUser } from "react-icons/ai";
 import { LuUsers } from "react-icons/lu";
 import { FiMessageCircle } from "react-icons/fi";
-import { BsInstagram } from "react-icons/bs";
 import { LuLinkedin } from "react-icons/lu";
 import { BiMenu } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
@@ -78,7 +77,6 @@ export default function Navbar() {
         <div>FIND ME</div>
 
         <div className="flex justify-between w-full ">
-          {/* <a href="https://www.facebook.com/razia.mansuri.562/"> */}
           <a href="https://github.com/">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150  ">
               <FaGithub />
@@ -92,7 +90,6 @@ export default function Navbar() {
           </a>
           <a href="https://app.netlify.com/teams/raziamansuri77/sites">
             <div className="shadow-md  rounded-md hover:text-[#FE2D55] transition-all duration-[0.5s]   p-4 hover:-translate-y-1 ease-in-out delay-150">
-              {/* <BsInstagram /> */}
               <SiNetlify />
             </div>
           </a>
