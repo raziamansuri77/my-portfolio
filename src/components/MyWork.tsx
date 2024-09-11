@@ -45,6 +45,14 @@ export default function MyWork() {
             imageSrc="/quiz-app.png"
           />
         </div>
+        <div data-aos="zoom-in-up">
+          <MyWorkCard
+            link="https://drum-kit-madebyrazia.netlify.app/"
+            text1="DRUM KIT"
+            text2="HTML,CSS,JAVASCRIPT"
+            imageSrc="/DRUM-KIT.png"
+          />
+        </div>
       </div>
     </div>
   );

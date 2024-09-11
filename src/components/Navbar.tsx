@@ -23,7 +23,7 @@ export default function Navbar() {
         <img
           src="/dp-1.jpg"
           alt=""
-          className=" h-[80px] w-[80px] rounded-full xl:w-[180px]  xl:h-[180px] border-gray-600 border-4 "
+          className=" h-[60px] w-[60px] rounded-full xl:w-[180px]  xl:h-[180px] border-gray-600 border-4 "
         />
       </div>
       <div className="text-[40px] text-[#FE2D55] xl:hidden ">
