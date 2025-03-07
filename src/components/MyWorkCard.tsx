@@ -15,7 +15,7 @@ export default function MyWorkCard(props: any) {
         <div className="p-4 ">
           <a
             href={link}
-            className="text-[25px] cursor-pointer hover:text-[#FE2D55] transition-all duration-[0.5s] font-bold"
+            className="text-[25px] cursor-pointer hover:text-[#FE2D55] transition-all duration-500 font-bold"
           >
             {text1}
           </a>

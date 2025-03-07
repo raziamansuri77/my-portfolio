@@ -50,20 +50,20 @@ export default function Education() {
           >
             Job Experience
           </div>
-          <div className="relative py-10  ">
-            <div className="  h-[250px] bg-gray-400 w-[3px]"></div>
+          <div className="relative py-10 ">
+            <div className="  h-[250px] bg-gray-400 w-[3px]  "></div>
             {/* <div className="absolute top-20 left-[-8px]">
               <ResumeCard
                 text1="Internship in Web Designing"
                 text2="6 months intrenship in web designing from Scaptor"
               />
             </div> */}
-            <div className="absolute top-[80px] left-[-8px]">
-              <div data-aos="zoom-in-up">
+            <div className="absolute top-[80px] left-[-8px] ">
+              <div data-aos="zoom-in-up ">
                 <ResumeCard
                   text1="Computer Instructor "
                   text2="
-                I have been teaching for 2 and half years in Galaxy Private ITI Heerpur Paonta Sahib Himachal Pradesh"
+               I have worked as an instructor  of COPA (Computer Operator and Programming Assistant) Trade from 1 December 2021 to 31 August 2024  in Galaxy Private ITI Heerpur Paonta Sahib (H.P.)"
                 />
               </div>
             </div>

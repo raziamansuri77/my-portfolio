@@ -30,7 +30,7 @@ export default function Home() {
           <a href="#contact"> CONTACT ME</a>
         </button>
         <button className="bg-#ffffff dark:bg-[#1b1b1d]  text-[#FE2D55] w-[200px] shadow-md  p-4    hover:-translate-y-1 transition-all ease-in-out delay-150  ">
-          <a href="public/razia_fullstack_Developer.pdf" download>
+          <a href="public/Razia_Fullstack_Developer.pdf" download>
             DOWNLOAD RESUME
           </a>
         </button>
