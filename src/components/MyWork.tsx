@@ -15,6 +15,14 @@ export default function MyWork() {
       <div className="grid xl:grid-cols-3 sm:grid-cols-2  gap-4  mt-10">
         <div data-aos="zoom-in-up">
           <MyWorkCard
+            link="https://apnabookstore.netlify.app/"
+            text1="ECOMMERCE WEBSITE "
+            text2="ReactTS,Tailwind CSS"
+            imageSrc="/BOOKSTORE.jpg"
+          />
+        </div>
+        <div data-aos="zoom-in-up">
+          <MyWorkCard
             link="https://todoapprazia.netlify.app"
             text1="TODO APP"
             text2="ReactTS,Tailwind CSS"
