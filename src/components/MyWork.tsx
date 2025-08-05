@@ -31,10 +31,10 @@ export default function MyWork() {
         </div>
         <div data-aos="zoom-in-up">
           <MyWorkCard
-            link="https://weather-app-razia.netlify.app"
+            link="https://my-weather-app-razia.netlify.app/"
             text1="Weather App"
             text2="ReactTS,Tailwind CSS"
-            imageSrc="/weatherApp.png"
+            imageSrc="/weather.png"
           />
         </div>
         <div data-aos="zoom-in-up">
